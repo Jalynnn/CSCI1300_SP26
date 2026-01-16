@@ -1,14 +1,14 @@
 // input output stream
 // C++ library
-#include <_______>                              // TODO: Include the correct library
+#include <iostream>                              // TODO: Include the correct library
 
 // standard namespace
-using namespace _______;                        // TODO: Specify the correct namespace
+using namespace std;                        // TODO: Specify the correct namespace
 
-_______ main() {                                // TODO: What variable type is the return type?
+int main() {                                // TODO: What variable type is the return type?
     // Console output
-    _______ << "Hello World!\n";                // TODO: What is the output stream object?
-    _______ << "Hello World!" << _______;       // TODO What is the alt way to say next line?
+    cout << "Hello World!\n";                // TODO: What is the output stream object?
+  cout << "Hello World!" << endl;       // TODO What is the alt way to say next line?
 
-    return _______;                             // TODO What is the optional return value for a successful main function?
+    return 0;                             // TODO What is the optional return value for a successful main function?
 }
